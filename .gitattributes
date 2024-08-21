@@ -1,0 +1,6 @@
+#Ignore these files from the GitLab langauge statistics
+*.css linguist-vendored
+*.qml linguist-vendored
+*.zip linguist-vendored
+*.sld linguist-vendored
+*.tif linguist-vendored

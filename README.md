@@ -1,0 +1,1 @@
+# Geothermal Atlas for Africa

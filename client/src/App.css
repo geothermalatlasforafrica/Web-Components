@@ -1,0 +1,126 @@
+.small-font {
+  font-size: 0.8em;
+}
+
+.map {
+  background-color: #282c34;
+}
+
+.ol-popup {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+  bottom: 12px;
+  left: -50px;
+  width: 400px;
+}
+
+.ol-popup:after,
+.ol-popup:before {
+  top: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.ol-popup:after {
+  border-top-color: white;
+  border-width: 10px;
+  left: 48px;
+  margin-left: -10px;
+}
+
+.ol-popup:before {
+  border-top-color: #cccccc;
+  border-width: 11px;
+  left: 48px;
+  margin-left: -11px;
+}
+
+.ol-popup-closer {
+  text-decoration: none;
+  position: absolute;
+  top: 0.7em;
+  right: 0.7em;
+}
+
+.ol-popup-closer:after {
+  content: "✖";
+}
+
+.ol-popup-body {
+  height: 400px;
+  overflow-y: auto;
+}
+
+.map .ol-zoom {
+  top: 0.5em;
+  left: 315px;
+  right: auto;
+}
+
+.map .ol-zoom-expanded-metadata {
+  top: 0.5em;
+  left: 630px;
+  right: auto;
+}
+
+.text-underline-hover {
+    text-decoration: none;
+}
+
+.text-underline-hover:hover {
+    text-decoration: underline;
+}
+
+.footer-eu-funding {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-eu-funding-item {
+  padding: 5px;
+  max-width: 500px;
+}
+
+.footer-eu-funding-flag {
+  height: 4em;
+}
+
+.inner-btn {
+  position: absolute;
+  line-height: 37px;
+  left: calc(100% - 67px);
+  z-index: 99999;
+}
+
+.map-overlay-widget {
+  width: 300px;
+  max-height: calc(100% - 3em);
+  z-index: 1;
+}
+
+#metadata-window {
+  left: 320px;
+}
+
+.vertical-scroll {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#toast-image {
+  height: 20px
+}
+
+.carousel-image {
+  height: 500px;
+  object-fit: cover;
+}
